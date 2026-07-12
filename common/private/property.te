@@ -4,3 +4,6 @@ product_internal_prop(odm_cast_prop)
 
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# Keep current ABL during A/B updates
+system_internal_prop(keep_current_abl_prop)

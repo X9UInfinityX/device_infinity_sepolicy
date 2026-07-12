@@ -11,3 +11,5 @@ allow update_engine labeledfs:filesystem { mount unmount };
 # Allow transition to backuptool domain
 allow update_engine self:process setexec;
 domain_trans(update_engine, postinstall_exec, backuptool)
+
+get_prop(update_engine, keep_current_abl_prop)
