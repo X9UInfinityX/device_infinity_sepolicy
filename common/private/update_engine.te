@@ -13,3 +13,4 @@ allow update_engine self:process setexec;
 domain_trans(update_engine, postinstall_exec, backuptool)
 
 get_prop(update_engine, keep_current_abl_prop)
+get_prop(update_engine, keep_current_recovery_prop)

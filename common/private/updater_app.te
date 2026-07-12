@@ -30,3 +30,4 @@ get_prop(updater_app, build_prop)
 
 set_prop(updater_app, recovery_update_prop)
 set_prop(updater_app, keep_current_abl_prop)
+set_prop(updater_app, keep_current_recovery_prop)

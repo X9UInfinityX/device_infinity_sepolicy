@@ -7,3 +7,6 @@ system_internal_prop(recovery_update_prop)
 
 # Keep current ABL during A/B updates
 system_internal_prop(keep_current_abl_prop)
+
+# Keep current recovery during A/B updates
+system_internal_prop(keep_current_recovery_prop)
